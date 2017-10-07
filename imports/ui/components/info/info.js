@@ -16,13 +16,13 @@ Template.info.events({
   'submit .info-link-add'(event) {
     event.preventDefault();
 
-    const target = event.target;
-    const title = target.title;
-    const url = target.url;
+    const { target } = event;
+    const { title, url } = target;
 
     Meteor.call('links.insert', title.value, url.value, (error) => {
       if (error) {
-        alert(error.error);
+        const alert = error.error;
+        alert();
       } else {
         title.value = '';
         url.value = '';

@@ -14,7 +14,7 @@ if (Meteor.isServer) {
         url: 'https://www.meteor.com',
       });
       const added = Links.find({ _id: linkId });
-      const collectionName = added._getCollectionName();
+      const collectionName = added.getCollectionName();
       const count = added.count();
 
       assert.equal(collectionName, 'links');
