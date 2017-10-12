@@ -24,12 +24,15 @@
   "eslintConfig": {
     "extends": "@meteorjs/eslint-config-meteor",
     "rules": {
-      "import/no-unresolved": "off"
+      "import/no-unresolved": "off",
+      "import/no-undef": "off"
     },
     "env": {
       "meteor": true,
       "mocha": true,
-      "mongo": true
+      "mongo": true,
+      "node": true,
+      "browser": true
     }
   }
 }

@@ -11,10 +11,8 @@ DefaultController = RouteController.extend({
 });
 
 // set-up all default pages routes
-Router.map(function () {
-  this.route('/', {
-    name: 'home_page',
-    template: 'home_page',
-    controller: 'DefaultController',
-  });
+Router.route('/', {
+  name: 'home_page',
+  template: 'home_page',
+  controller: 'DefaultController',
 });
