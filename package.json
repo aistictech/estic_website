@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "babel-runtime": "^6.20.0",
+    "materialize-social": "^1.0.3",
     "mdbootstrap": "^4.4.1",
     "meteor-node-stubs": "~0.2.4"
   },
