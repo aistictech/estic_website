@@ -2,9 +2,11 @@
 //
 // https://guide.meteor.com/testing.html
 
-import { PublicationCollector } from 'meteor/johanbrook:publication-collector';
+
+
 import { assert } from 'meteor/practicalmeteor:chai';
 import { Links } from '../links.js';
+import { PublicationCollector } from 'meteor/johanbrook:publication-collector';
 import './publications.js';
 
 describe('links publications', function () {
