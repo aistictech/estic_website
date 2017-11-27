@@ -2,7 +2,6 @@
   "name": "estic-website",
   "private": true,
   "scripts": {
-<<<<<<< HEAD
     "start": "meteor run",
     "lint": "eslint .",
     "pretest": "npm run lint --silent"
@@ -36,12 +35,5 @@
       "node": true,
       "browser": true
     }
-=======
-    "start": "meteor run"
-  },
-  "dependencies": {
-    "babel-runtime": "^6.20.0",
-    "meteor-node-stubs": "~0.2.4"
->>>>>>> 4f829a725b729b389875cf27e5202252c3c61920
   }
 }
