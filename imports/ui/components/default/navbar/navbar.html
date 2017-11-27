@@ -1,16 +1,31 @@
 <template name="navbar">
   <nav style="position:fixed ; width:100%">
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo container">
-        <img class="responsive-img" src="/img/logo/logo_stic.png" style="position:relative ; height:40% ; width:12% ; top:6px">
-        <h5 style="position:relative ; left:13% ; bottom:61px">Association des Ingenieurs STIC</h5>
-      </a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="akwaba.html">Acceuil</a></li>
-        <li><a href="projets.html">Nos projets</a></li>
-        <li><a href="trombino.html">Trombino</a></li>
-        <li><a href="contacts.html">Nous contacter</a></li>
-      </ul>
+      <div class="row">
+        <div class="col m12 l7">
+            <a href="#" data-activates="mobile-side-nav" class="button-collapse"><i class="material-icons menu-icon">menu</i></a>
+            <a href="#" class="brand-logo">
+              <div class="valign-wrapper">
+                <div class="hide-on-med-and-down valign-wrapper">
+                    <img class="responsive-img hide-on-med-and-down" src="/img/logo/logo_stic.png" style="position:relative; width:7%; left: 2%;">
+                    <span style="position:relative; left: 3%; font-size:x-large;">Association des Ingénieurs STIC</span> 
+                </div>
+                <div class="">
+
+                </div>
+              </div>
+                
+            </a>
+        </div>
+        <div class="col l5">
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="akwaba.html">Acceuil</a></li>
+                <li><a href="projets.html">Nos projets</a></li>
+                <li><a href="trombino.html">Trombino</a></li>
+                <li><a href="contacts.html">Nous contacter</a></li>
+            </ul>
+        </div>
+      </div>
     </div>
   </nav>
 </template>
