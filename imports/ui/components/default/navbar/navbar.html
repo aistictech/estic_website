@@ -1,30 +1,37 @@
 <template name="navbar">
   <nav>
-    <div class="nav-wrapper" style="background-color:gold">
+    <div class="nav-wrapper" style="background-color:#f3b704">
+      <!-- Reduire le menu au symbole avec les trois traits!-->
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+      <!-- Adaptabilite pour le format PC!-->
       <a href="#" class="brand-logo">
         <div class="valign-wrapper">
           <img class="responsive-img hide-on-med-and-down" src="/img/logo/logo_stic.png" style="position:relative ; width:8% ; left:2%">
-          <span class="responsive-img hide-on-med-and-down" style="position:relative ; left:3% ; font-size:x-large ; color:black">Association des Ingenieurs STIC</span>
+          <span class="responsive-img hide-on-med-and-down" style="position:relative ; left:3% ; font-size:x-large ; color:white">Association des Ingenieurs STIC</span>
         </div>
       </a>
+      <!-- Adaptabilite pour le format Smartphone!-->
       <a href="#" class="brand-logo">
         <div class="valign-wrapper">
           <img class="valign-wrapper responsive-img hide-on-med-and-up" src="/img/logo/logo_stic.png" style="position:relative ; width:35% ; margin-left:30%">
         </div>
       </a>
+      <!-- Adaptabilite pour le format Tablette!-->
       <a href="#" class="brand-logo">
         <div class="valign-wrapper">
           <img class="responsive-img hide-on-large-only hide-on-small-only" src="/img/logo/logo_stic.png" style="position:relative ; width:14% ">
-          <span class="responsive-img hide-on-large-only hide-on-small-only" style="position:relative ; left:3% ; font-size:0.6em ; color:black">Association des Ingenieurs STIC</span>
+          <span class="responsive-img hide-on-large-only hide-on-small-only" style="position:relative ; left:3% ; font-size:0.6em ; color:white">Association des Ingenieurs STIC</span>
         </div>
       </a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down" style="background-color:gold">
-        <li><a href="acceuil.html" style="color:black">Acceuil</a></li>
-        <li><a href="projets.html" style="color:black">Nos projets</a></li>
-        <li><a href="trombino.html" style="color:black">Trombino</a></li>
-        <li><a href="contacts.html" style="color:black">Nous contacter</a></li>
+      <!-- Menu sous le format PC!-->
+      <ul id="nav-mobile" class="right hide-on-med-and-down" style="background-color:#f3b704">
+        <li><a href="acceuil.html" style="color:white">Acceuil</a></li>
+        <li><a href="projets.html" style="color:white">Nos projets</a></li>
+        <li><a href="trombino.html" style="color:white">Trombino</a></li>
+        <li><a href="contacts.html" style="color:white">Nous contacter</a></li>
       </ul>
-      <ul id="slide-out" class="side-nav" style="background-color:gold">
+      <!-- Menu sortant derriere le symbole avec les trois traits!-->
+      <ul id="slide-out" class="side-nav" style="background-color:#f3b704">
         <li>
           <div class="user-view">
             <div class="background">
@@ -33,21 +40,20 @@
             <a href="#"><img class="" src=""></a>
           </div>
         </li>
-        <li><a href="acceuil.html" style="color:black">Acceuil</a></li>
+        <li><a href="acceuil.html" style="color:white">Acceuil</a></li>
         <li>
           <div class="divider"></div>
         </li>
-        <li><a href="projets.html" style="color:black">Nos projets</a></li>
+        <li><a href="projets.html" style="color:white">Nos projets</a></li>
         <li>
           <div class="divider"></div>
         </li>
-        <li><a href="trombino.html" style="color:black">Trombino</a></li>
+        <li><a href="trombino.html" style="color:white">Trombino</a></li>
         <li>
           <div class="divider"></div>
         </li>
-        <li><a href="contacts.html" style="color:black">Nous contacter</a></li>
+        <li><a href="contacts.html" style="color:white">Nous contacter</a></li>
       </ul>
-      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 </template>
