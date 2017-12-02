@@ -1,27 +1,50 @@
 <template name='footer'>
-	<footer class="page-footer #bbdefb blue lighten-4" style="body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-
-  main {
-    flex: 1 0 auto;
-  }">
+	<footer class="page-footer #bbdefb blue lighten-4">
           <div class="container">
             <div class="row">
-              <div class="col l6 s12">
+              <!-- Format PC et écrans plus larges !-->
+              <div class="col l6  hide-on-med-and-down ">
                 <h5 class="grey-text text-lighten-4">Association des Ingénieurs STIC</h5>
-                <img src="img/logo/logo_stic.png"  />
+                <img src="img/logo/logo_stic_large.png"  />
               </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text left-align">SUIVEZ-NOUS</h5>
-                <ul>
-                  <li><img src="img/icones/facebook.png" class="circle responsive-img" /><a class="white-text text-lighten-2 right-align " href="#!"> Facebook</a></li>
-                  <li><img src="img/icones/twitter.png" class="circle responsive-img " /><a class="white-text text-lighten-3 right-align" href="#!">Twitter</a></li>
-                  <li><img src="img/icones/linkedin.png" class="circle responsive-img" /><a class="white-text text-lighten-3 " href="#!">LinkedIn</a></li>
-                  <li><img src="img/icones/google+.png" class="circle responsive-img " /><a class="white-text text-lighten-3 " href="#!">Google+</a></li>
-                  <li><img src="img/icones/github.png" class="circle responsive-img" /><a class="white-text text-lighten-3 " href="#!">GitHub</a></li>
+              <div class="col l4 offset-l2 hide-on-med-and-down">
+                <h5 class="white-text ">SUIVEZ-NOUS</h5>
+                <ul >
+                  <li><img src="img/icones/facebook.png" class="circle responsive-img" /><a class="white-text text-lighten-2 left-align " href="#!"> Facebook</a></li>
+                  <li><img src="img/icones/twitter.png" class="circle responsive-img " /><a class="white-text text-lighten-3 left-align" href="#!">Twitter</a></li>
+                  <li><img src="img/icones/linkedin.png" class="circle responsive-img" /><a class="white-text text-lighten-3 left-align" href="#!">LinkedIn</a></li>
+                  <li><img src="img/icones/google+.png" class="circle responsive-img " /><a class="white-text text-lighten-3 left-align" href="#!">Google+</a></li>
+                  <li><img src="img/icones/github.png" class="circle responsive-img" /><a class="white-text text-lighten-3 left-align" href="#!">GitHub</a></li>
+                </ul>
+              </div>
+              <!-- Format Tablette et écrans moyens!-->
+              <div class="col m5  hide-on-large-only hide-on-small-only">
+                <h6 class="grey-text text-lighten-4">Association des Ingénieurs STIC</h6>
+                <img src="img/logo/logo_stic_medium.png"  />
+              </div>
+              <div class="col m4 offset-m3 hide-on-large-only hide-on-small-only">
+                <h6 class="white-text ">SUIVEZ-NOUS</h6>
+                <ul >
+                  <li><img src="img/icones/facebook.png" class="circle responsive-img" /><a class="white-text text-lighten-2 left-align " href="#!"> Facebook</a></li>
+                  <li><img src="img/icones/twitter.png" class="circle responsive-img " /><a class="white-text text-lighten-3 left-align" href="#!">Twitter</a></li>
+                  <li><img src="img/icones/linkedin.png" class="circle responsive-img" /><a class="white-text text-lighten-3 left-align" href="#!">LinkedIn</a></li>
+                  <li><img src="img/icones/google+.png" class="circle responsive-img " /><a class="white-text text-lighten-3 left-align" href="#!">Google+</a></li>
+                  <li><img src="img/icones/github.png" class="circle responsive-img" /><a class="white-text text-lighten-3 left-align" href="#!">GitHub</a></li>
+                </ul>
+              </div>
+              <!-- Format smartphone et pétits écrans!-->
+              <div class="col s5  hide-on-med-and-up">
+                <p class="grey-text text-lighten-4">Association des Ingénieurs STIC</p>
+                <img src="img/logo/logo_stic_small.png"  />
+              </div>
+              <div class="col  offset-s3 s4 hide-on-med-and-up">
+                <p class="white-text ">SUIVEZ-NOUS</p>
+                <ul >
+                  <li><img src="img/icones/facebook.png" class="circle responsive-img" /><a class="white-text text-lighten-2 left-align " href="#!"> Facebook</a></li>
+                  <li><img src="img/icones/twitter.png" class="circle responsive-img " /><a class="white-text text-lighten-3 left-align" href="#!">Twitter</a></li>
+                  <li><img src="img/icones/linkedin.png" class="circle responsive-img" /><a class="white-text text-lighten-3 left-align" href="#!">LinkedIn</a></li>
+                  <li><img src="img/icones/google+.png" class="circle responsive-img " /><a class="white-text text-lighten-3 left-align" href="#!">Google+</a></li>
+                  <li><img src="img/icones/github.png" class="circle responsive-img" /><a class="white-text text-lighten-3 left-align" href="#!">GitHub</a></li>
                 </ul>
               </div>
             </div>
