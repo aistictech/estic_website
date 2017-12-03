@@ -26,4 +26,4 @@ johanbrook:publication-collector  # Test a Meteor publication by collecting its 
 
 iron:router
 materialize:materialize
-
+fortawesome:fontawesome
